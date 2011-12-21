@@ -1,0 +1,44 @@
+#
+# Use global syntax
+#
+syntax: glob
+
+#
+# Ignore Visual Studio generated output folders
+#
+obj\
+bin\
+[Bb]in
+[Db]ebug*/
+[Rr]elease*
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+_ReSharper*/
+*.obj
+*.exe
+*.pdb
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc/
+*.[Pp]ublish.xml
+*.cache
+
+#
+# Ignore Visual Studio user/workstation specific files
+#
+*.suo
+*.user
+*.csproj.user
+*.csproj.vs10x
